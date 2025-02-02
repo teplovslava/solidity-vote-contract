@@ -37,3 +37,14 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### Hardhat localhost blockchain start
+
+```sh
+npx hardhat node
+```
+### Deploy contract for blockchain
+
+```sh
+npx hardhat run scripts/deploy.ts --network localhost
+```
